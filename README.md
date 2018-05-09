@@ -1,2 +1,2 @@
-# linux shell
-> 自己编写的shell脚本
+# Linux Shell
+> 自己编写的shell脚本，并且很多脚本仍在持续改进中... ...
