@@ -4,7 +4,7 @@
 # description: Tomcat start/stop/status script
 
 #CATALINA_HOME is the location of the configuration files of this instance of Tomcat
-CATALINA_HOME=/app/tomcat8080_www
+CATALINA_HOME=/app/tomcat8080
 
 . /etc/profile
 #TOMCAT_USER is the default user of tomcat
