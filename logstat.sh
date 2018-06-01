@@ -1,5 +1,9 @@
 #!/bin/bash
+
+# 此脚本仅用于分析nginx access log
+# 此脚本只适用于格式为"access.log-20180523"的日志
 # set -e
+
 # time
 timesort(){
         for i in `seq -f "%02g" 0 23`
