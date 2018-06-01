@@ -1,9 +1,12 @@
 #!/bin/sh
+# script name:
+# last update time:
+# the script is for jar package startup shutdown use www
 . /etc/profile
 
 USER='www'
-APP_NAME='qzd.jar'
-APP_HOME='/app/app/'
+APP_NAME='xxxx.jar'
+APP_HOME='/path/to/apphome/'
 APP_PID() {
     echo $(ps -ef | grep ${APP_HOME}${APP_NAME} | grep -v grep | awk '{print $2}')
 }
